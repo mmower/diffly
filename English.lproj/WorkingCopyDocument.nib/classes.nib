@@ -1,0 +1,64 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                diff = id; 
+                exportChanges = id; 
+                filterFiles = id; 
+                myAction = id; 
+                revertFile = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = StatusTable; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            ACTIONS = {
+                addFile = id; 
+                checkSelectedFiles = id; 
+                commit = id; 
+                diff = id; 
+                endCommitWindow = id; 
+                filterFiles = id; 
+                mergeFile = id; 
+                refreshFile = id; 
+                removeFile = id; 
+                revertFile = id; 
+                toggleCommit = id; 
+                togglePaths = id; 
+                toggleShowAll = id; 
+                toggleShowExternals = id; 
+                toggleShowFolders = id; 
+                toggleShowNone = id; 
+                toggleShowUnversioned = id; 
+                uncheckSelectedFiles = id; 
+            }; 
+            CLASS = WorkingCopyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                commitButton = NSButton; 
+                commitControlButton = NSButton; 
+                commitMessage = NSTextView; 
+                commitProgress = NSProgressIndicator; 
+                commitResults = NSTextView; 
+                commitWindow = NSWindow; 
+                diffViewer = WebView; 
+                docMenu = NSMenu; 
+                docWindow = NSWindow; 
+                drawer = NSDrawer; 
+                fileTable = StatusTable; 
+                filterField = NSSearchField; 
+                filterFieldView = NSView; 
+                filterPredicate = NSPredicate; 
+                itemController = NSArrayController; 
+                progressIndicator = NSProgressIndicator; 
+                splitView = RBSplitView; 
+                statusMessages = NSTextField; 
+                toolbar = NSToolbar; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }
+    ); 
+    IBVersion = 1; 
+}

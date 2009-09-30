@@ -1,0 +1,46 @@
+/* Diffly's Default Stylesheet */
+
+body {
+	x-overflow: hidden;
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+pre {
+  background-color: #e5e5e5;
+  border: solid 1px #ccd;
+  padding: .5em .75em;
+	margin: .4em .1em .4em 0;
+}
+
+code {
+  line-height: 1.2;
+  color: #336;
+  margin: 0 0 0 0;
+  padding: 0.1em 0 0.1em 0;
+}
+
+.diff {
+}
+
+.hunk {
+	font-family: Monaco, mono;
+}
+
+.common-line {
+	color: #336;
+}
+
+.added-line {
+	color: #007400;
+}
+
+.removed-line {
+	color: #dc0000;
+}
+
+.status {
+	color: blue;
+	font: small-caps large "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-align: center;
+}

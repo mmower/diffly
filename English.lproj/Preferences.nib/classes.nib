@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {
+            CLASS = DBPrefsWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {browseStylesheetPath = id; browseSvnPath = id; changedUpdateType = id; }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                advancedPreferenceView = NSView; 
+                autoCommitParentFoldersCheckbox = NSButton; 
+                generalPreferenceView = NSView; 
+                openLastFoldersCheckbox = NSButton; 
+                stylesheetPathField = NSTextField; 
+                subversionPreferenceView = NSView; 
+                svnPathField = NSTextField; 
+                updateTypeButton = NSButton; 
+                updatesPreferenceView = NSView; 
+                useTextMateCheckbox = NSButton; 
+            }; 
+            SUPERCLASS = DBPrefsWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

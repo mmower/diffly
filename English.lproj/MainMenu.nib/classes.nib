@@ -1,0 +1,39 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {openWorkingCopy = id; showPreferencePanel = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                diff = id; 
+                exportChanges = id; 
+                revertFile = id; 
+                togglePaths = id; 
+                toggleShowAll = id; 
+                toggleShowExternals = id; 
+                toggleShowFolders = id; 
+                toggleShowNone = id; 
+                toggleShowUnversioned = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {userFeedback = id; }; 
+            CLASS = LKReporter; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

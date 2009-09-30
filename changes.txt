@@ -1,0 +1,85 @@
+Changes since 0.8.3
+-------------------
+
+FIXED: Commit message editor no longer uses rich text
+FIXED: Commit help text is a little more informative
+NEW: Force remove action
+
+Changes since 0.8.2
+-------------------
+
+NEW: Select/Deselect now available on the toolbar
+NEW: Item filter now available on the toolbar
+
+NOTE: You will need to click the Customise Toolbar button in order to get these new toolbar items!
+
+Changes since 0.8.0
+-------------------
+
+NEW: Clears the commit message when the dialog closes to avoid confusion on subsequent commit
+NEW: Improved CSS to remove horizontal scrollbar if possible (thanks to Stuart Robinson for the fix)
+NEW: Keyboard control of selection/deselection of items to checkin
+
+Changes since 0.7.3
+-------------------
+- Preserve selected items across refresh
+- Fixed bug with changing svn path and stylesheet preferences
+- Will prompt with the prefs panel if the svn path is wrong at startup
+- Status items get refreshed properly
+- Stylesheet default font size set to 9pt (no so huge!!)
+- No longer opens a copy of FileMerge for each file (thanks to Neill Bogie for the fix)
+- Now issues "--diff-cmd diff" to avoid conflict with user subversion config (thanks to Benoit Gagnon for the fix)
+
+Changes since 0.7.2
+-------------------
+- Added the option to create a patch instead of committing
+- Repeatedly clicking 'refresh' no longer induces a crash
+- Invalid row selection no longer generates errors
+- Parser no longer breaks when svn properties have been updated
+
+Changes since 0.7.1
+-------------------
+- Fixed crash bug due to spaces in working copy path (thanks to Jamie Van Dyck for the catch)
+- Display of relative path names can be turned off to save space
+
+Changes since 0.7.0
+-------------------
+Context menu actions for items:
+	refresh diff for item
+	add item
+	invoke file merge on item
+Numerous bug-fixes
+
+Changes since 0.6.0
+-------------------
+Now using bindings
+Auto-sorts based on filename
+Now queries & displays the status of all files in the working copy
+Diff is done per-file, lazy, using asychronous I/O so the UI stays responsive at all times
+Refactored to implement 'proper' Cocoa Document MVC
+Now with a toolbar!
+Filters to hide folders, externals, and unversioned files
+Option to automatically commit unselected/filtered parent folders of selected files
+
+Changes since 0.5.0
+-------------------
+Now using Diffly to commit Diffly!
+Many memory leaks squashed (although not all)
+Builds clean under mikeash's recommended "-W -Wall -Wno-unused-parameter -Wundeclared-selector"
+
+Changes since 0.4.0
+-------------------
+Now acts as a "proper" document app using File|Open
+Recent files works
+Open working copies from the command line using open -a Diffly.app <folderpath>
+Optionally remembers the working copies you had open last time
+
+Changes since 0.3.0
+-------------------
+Numerous minor bug fixes
+All reported problems with diff output
+Now checks that the svn path is a valid executable
+Now checks the stylesheet is readable
+Adds a drawer with the commit message & button
+Commit column toggles when being used for commits.
+Uses an indicator to show it's working (but it's so fast you may never see it!)
