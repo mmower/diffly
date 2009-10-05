@@ -3,7 +3,7 @@
 //  SvnDiffParser
 //
 //  Created by Matt Mower on 06/01/2007.
-//  Copyright 2007 __MyCompanyName__. All rights reserved.
+//  Copyright 2007 Matt Mower. See MIT-LICENSE for more information.
 //
 
 #import "DiffLine.h"

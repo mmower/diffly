@@ -3,7 +3,7 @@
 //  Diffly
 //
 //  Created by Matt Mower on 09/04/2007.
-//  Copyright 2007 __MyCompanyName__. All rights reserved.
+//  Copyright 2007 Matt Mower. See MIT-LICENSE for more information.
 //
 
 #import <Cocoa/Cocoa.h>

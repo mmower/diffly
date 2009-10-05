@@ -3,7 +3,7 @@
 //  Diffly
 //
 //  Created by Matt Mower on 30/12/2006.
-//  Copyright __MyCompanyName__ 2006 . All rights reserved.
+//  Copyright Matt Mower 2006 . All rights reserved.
 //
 
 #import "WorkingCopyDocument.h"
